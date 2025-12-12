@@ -33,4 +33,16 @@ export function safeDivide(a: number, b: number): number {
 
   return a / b;
 }
+/**
+ * Divides `a` by `b` while guarding against division by zero.
+ *
+ * @throws {Error} When `b` is 0.
+ */
+export function safeDivide(a: number, b: number): number {
+  if (b === 0) {
+    throw new Error("Division by zero");
+  }
+
+  return a / b;
+}
 }
