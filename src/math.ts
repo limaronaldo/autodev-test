@@ -14,3 +14,9 @@ export function quadruple(n: number): number {
 export function quadruple(n: number): number {
   return n * 4;
 }
+/**
+ * Multiply a number by four.
+ */
+export function quadruple(n: number): number {
+  return n * 4;
+}
