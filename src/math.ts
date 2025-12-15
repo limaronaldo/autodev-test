@@ -14,8 +14,8 @@ export function sqrt(x: number): number {
 }
 
 /**
- * Get the maximum of two numbers.
+ * Get the absolute value of two numbers
  */
-export function max(a: number, b: number): number {
-  return Math.max(a, b);
+export function abs(x: number): number {
+  return Math.abs(x);
 }
