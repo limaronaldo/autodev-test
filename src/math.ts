@@ -16,3 +16,10 @@ export function max(a: number, b: number): number {
 export function sqrt(x: number): number {
   return Math.sqrt(x);
 }
+
+/**
+ * Multiply a number by three.
+ */
+export function triple(n: number): number {
+  return n * 3;
+}
