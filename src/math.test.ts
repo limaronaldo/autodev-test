@@ -1,4 +1,4 @@
-import { max } from './math';
+import { max, half } from './math';
 
 describe('max', () => {
   it('returns 5 for max(5, 3)', () => {
@@ -11,5 +11,11 @@ describe('max', () => {
 
   it('returns 0 for max(0, 0)', () => {
     expect(max(0, 0)).toBe(0);
+  });
+});
+
+describe('half', () => {
+  it('returns 5 for half(10)', () => {
+    expect(half(10)).toBe(5);
   });
 });
