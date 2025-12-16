@@ -16,3 +16,10 @@ export function max(a: number, b: number): number {
 export function sqrt(x: number): number {
   return Math.sqrt(x);
 }
+
+/**
+ * Double a number.
+ */
+export function double(n: number): number {
+  return n * 2;
+}
