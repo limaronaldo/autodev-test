@@ -16,3 +16,10 @@ export function max(a: number, b: number): number {
 export function sqrt(x: number): number {
   return Math.sqrt(x);
 }
+
+/**
+ * Negate a number.
+ */
+export function negate(n: number): number {
+  return -n;
+}
