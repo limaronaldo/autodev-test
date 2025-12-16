@@ -16,3 +16,10 @@ export function max(a: number, b: number): number {
 export function sqrt(x: number): number {
   return Math.sqrt(x);
 }
+
+/**
+ * Divide a number by 2.
+ */
+export function half(n: number): number {
+  return n / 2;
+}
