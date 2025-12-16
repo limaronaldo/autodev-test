@@ -6,13 +6,11 @@ export function subtract(a: number, b: number): number {
   return a - b;
 }
 
-export function max(a: number, b: number): number {
-  return Math.max(a, b);
-}
-
 /**
- * Get the square root of a number.
+ * Calculate the cube of a number.
  */
-export function sqrt(x: number): number {
+export function cube(x: number): number {
+  return x * x * x;
+}
   return Math.sqrt(x);
 }
